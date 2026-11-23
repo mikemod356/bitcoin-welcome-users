@@ -10,7 +10,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 TOKEN = os.environ.get("BOT_TOKEN")
-FREE_CHANNEL_URL = os.environ.get("FREE_CHANNEL_URL", "https://t.me/your_free_channel")
+
+# CHANGED THIS LINE: Hardcoded your exact link
+FREE_CHANNEL_URL = "https://t.me/bitcoinbrother"
 
 WELCOME_TEXT = (
     "Hello, brother 👋\n\n"
